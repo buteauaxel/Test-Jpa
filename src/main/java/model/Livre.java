@@ -38,7 +38,7 @@ public class Livre {
 	@ManyToMany(mappedBy="livre")
 	private Set<Emprunt> emprunt; 
 
-	// constructeurs
+	// Constructeurs
 	public Livre() {
 
 	}

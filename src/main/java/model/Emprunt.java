@@ -48,7 +48,9 @@ public class Emprunt {
 	private Client client; 
 	
 	
-	
+	public Emprunt(){
+		
+	}
 
 	
 	
@@ -86,9 +88,7 @@ public class Emprunt {
 		this.client = client;
 	}
 
-	public Emprunt(){
-		
-	}
+
 
 	/**
 	 * @return the id
